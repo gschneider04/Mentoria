@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,12 +15,15 @@ body {
 .container {
     max-width: 100%;
     width: 1574px;
+    margin: 0 auto;
 }
 
 nav {
+    display: inline-flex;
     width: 100%;
     align-items: center;
-   
+    justify-content: center;
+    align-content: center;
 }
 
 header {
@@ -29,15 +32,20 @@ header {
 
 ul {
     color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.5px;
+    font-family: 'Inter', sans-serif;
 
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-
+    display: inline-flex;
+    gap: 42px;
+   
 }
 
+
 main .container {
+    width: 100%;
     background-color: #161616;
     display: flex;
     flex-wrap: wrap; 
@@ -49,6 +57,7 @@ main .container {
 .first-title {
     padding: 64px 283px;
     color: #FFF;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 72px;
     font-style: normal;
@@ -60,7 +69,7 @@ main .container {
 .content-text {
     padding: 12px 614px;
     color: #FFF;
-
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 17px;
     font-style: normal;
@@ -70,12 +79,11 @@ main .container {
 
 .btt-projetos {
     color: #FFF;
-
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;    
     line-height: 28.5px;
-
     padding: 98px 69px;
     display: inline-flex;
     justify-content: center;
