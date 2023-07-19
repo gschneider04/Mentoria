@@ -80,9 +80,11 @@ main > .container {
     font-weight: 700;
     line-height: 76px;
     letter-spacing: -0.836px;
+
     width: 100%;
     max-width: 1353px;
     margin: 0 auto 40px auto;
+
 }
 /* </H1 DA MAIN > .CONTAINER> */
 
@@ -141,35 +143,38 @@ a {
 
 section {
     background-color: #FFF;
-    width: 1574.41px;
-    height: 1094.95px;
-    padding: 162px 0px 0px 0px;
-    color: #161616;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 28.5px;
-
-    display: flex;
+    width: 100%;
+    max-width: 1574px;
+    margin: 0;
+    padding: 162px 0 0 0;
+    flex-wrap: wrap;
 }
 
 section .container {
     background-color: #FFF;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+   /*  justify-content: center;
     align-items: center;
-
+    align-content: center; */
+    margin: 0;
+    width: 100%;
+    max-width: 1574px;
 }
 
+.section-right {
+    width: 100%;
+    max-width: 1180px;
+
+    margin: 0 0 0 393px;
+}
 /* <ESTILIZAÇÃO DA PRIMEIRA SECTION> */
 
 .h2-section1 {
-    display: flex;
-    width: 840px;
-    height: 155px;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    max-width: 840px;
+    
+    
 
     color: #161616;
     font-family: 'Poppins', sans-serif; 
@@ -178,15 +183,12 @@ section .container {
     font-weight: 700;
     line-height: 51.3px; 
     letter-spacing: -0.47px;
+    
 }
 
 .p-section1 {
-    display: flex;
-    width: 131.25px;
-    height: 23px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
+    width: 100%;
+    max-width: 183px;
 
     color: #161616;
     font-family: 'Poppins', sans-serif; 
@@ -194,6 +196,43 @@ section .container {
     font-style: normal;
     font-weight: 500;
     line-height: 28.5px;
+    
+     
+}
+
+.link-p-section1 {
+    color: #161616;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.5px;
+
+    width: 100%;
+    max-width: 131px;
+}
+.a-section1 {
+    width: 100%;
+    max-width: 1180px;
+
+    align-items: center;
+    justify-content: initial;
+    gap: 19px;
+    
+    color: #161616;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.5px;
+
+    padding-bottom: 163px;
+}
+
+.img-section1 {
+    width: 100%;
+    max-width: 1178px;
 }
 
 /* </ESTILIZAÇÃO DA PRIMEIRA SECTION> */
+
