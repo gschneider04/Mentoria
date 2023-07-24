@@ -160,6 +160,7 @@ section .container {
     margin: 0;
     width: 100%;
     max-width: 1574px;
+    margin: 0 173px;
 }
 
 .section-right {
@@ -196,7 +197,6 @@ section .container {
     font-style: normal;
     font-weight: 500;
     line-height: 28.5px;
-    
      
 }
 
