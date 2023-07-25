@@ -183,7 +183,7 @@ section .container {
 }
 
 .p-section1 {
-    width: fit-content%;
+    width: fit-content;
     /* max-width: 183px; */
 
     color: #161616;
