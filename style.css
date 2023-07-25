@@ -16,8 +16,8 @@ body {
 }
 
 .container {
-   max-width: 100%;
-   width: 1574px;
+   max-width: 1280px;
+   width: 100%;
    margin: 0 auto;
 }
 
@@ -144,7 +144,6 @@ a {
 section {
     background-color: #FFF;
     width: 100%;
-    max-width: 1574px;
     margin: 0;
     padding: 162px 0 0 0;
     flex-wrap: wrap;
@@ -153,21 +152,17 @@ section {
 section .container {
     background-color: #FFF;
     display: flex;
-    flex-wrap: wrap;
-   /*  justify-content: center;
-    align-items: center;
-    align-content: center; */
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
-    max-width: 1574px;
-    margin: 0 173px;
+    gap: 290px;
+ 
 }
 
 .section-right {
     width: 100%;
-    max-width: 1180px;
+/*     max-width: 1180px; */
 
-    margin: 0 0 0 393px;
+    /* margin: 0 0 0 393px; */
 }
 /* <ESTILIZAÇÃO DA PRIMEIRA SECTION> */
 
@@ -188,8 +183,8 @@ section .container {
 }
 
 .p-section1 {
-    width: 100%;
-    max-width: 183px;
+    width: fit-content%;
+    /* max-width: 183px; */
 
     color: #161616;
     font-family: 'Poppins', sans-serif; 
@@ -231,7 +226,7 @@ section .container {
 
 .img-section1 {
     width: 100%;
-    max-width: 1178px;
+    /* max-width: 1178px; */
 }
 
 /* </ESTILIZAÇÃO DA PRIMEIRA SECTION> */
