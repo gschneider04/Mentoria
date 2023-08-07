@@ -231,3 +231,67 @@ section .container {
 
 /* </ESTILIZAÇÃO DA PRIMEIRA SECTION> */
 
+
+/* <ESTILIZAÇÃO DA SEGUNDA SECTION> */
+.section2 {
+    display: flex;
+	align-items: start;
+	justify-content: space-between;
+
+}
+
+.h2-section2 {
+   
+    color: #161616;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px; 
+    letter-spacing: -0.836px;
+}
+
+.p_and-linksection2 {
+    width: 100%;
+	max-width: 375px;
+}
+.p2-section2 {
+    color: #161616;
+	font-size: 17px;
+    font-family: 'Poppins', sans-serif; 
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28.5px;
+}
+
+.section2 .a-section2 {
+    justify-content: start;
+	margin-top: 58px;
+}
+
+.link-p-section2 {
+    color: #161616;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.5px;
+}
+
+.wrapper {
+    display: flex;
+	align-items: start;
+	gap: 60px;
+	width: 100%;
+}
+
+.wrapper img {
+    width: 100%;
+	max-width: 47%;
+}
+
+.wrapper {
+    margin-top: 163px
+}
+
+/* </ESTILIZAÇÃO DA SEGUNDA SECTION> */
